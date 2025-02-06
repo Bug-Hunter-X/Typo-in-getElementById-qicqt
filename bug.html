@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+
+  <script>
+    // Incorrect attempt to access a non-existent element
+    document.getElementByIdx("myDiv").innerHTML = "Text changed!"; 
+  </script>
+</body>
+</html>
